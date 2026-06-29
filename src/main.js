@@ -65,7 +65,7 @@ async function onSearch(e) {
         position: 'topRight',
       });
     }
-  } catch (error) {
+  } catch {
     loader.style.display = 'none';
     iziToast.error({
       title: 'Error',
